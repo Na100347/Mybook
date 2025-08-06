@@ -1,0 +1,48 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatapptute-42bf1",
+          "appId": "1:612417872465:android:5499e99b81a1253c46ce70",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatapptute-42bf1",
+          "configurations": {
+            "android": "1:612417872465:android:5499e99b81a1253c46ce70"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "source": "functions",
+    "codebase": "default",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ],
+    "predeploy": [
+      "npm --prefix \"$RESOURCE_DIR\" run lint"
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5002
+    },
+
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "port": 4000
+    },
+    "singleProjectMode": true
+  }
+}

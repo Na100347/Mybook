@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "612417872465",
+    "project_id": "chatapptute-42bf1",
+    "storage_bucket": "chatapptute-42bf1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612417872465:android:5499e99b81a1253c46ce70",
+        "android_client_info": {
+          "package_name": "com.example.cuoiki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAemNsCZTGA_ZJRl1Ry5x3iqbLaDFruA-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612417872465:android:218081d12edc617646ce70",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAemNsCZTGA_ZJRl1Ry5x3iqbLaDFruA-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
